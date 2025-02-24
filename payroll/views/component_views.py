@@ -192,6 +192,9 @@ def payroll_calculation(employee, start_date, end_date):
         + federal_tax
         + loss_of_pay_amount
     )
+    print(pretax_deductions
+        , post_tax_deductions
+        , tax_deductions)
 
     net_pay = gross_pay - total_deductions
     # loss_of_pay        -> actual lop amount

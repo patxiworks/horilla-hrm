@@ -31,11 +31,11 @@ class AllCompany:
     """
 
     class Urls:
-        url = "https://ui-avatars.com/api/?name=All+Company&background=random"
+        url = "https://ui-avatars.com/api/?name=Trimart+Supermarket&background=random"
 
-    company = "All Company"
+    company = "Trimart"
     icon = Urls()
-    text = "All companies"
+    text = "Supermarket"
     id = None
 
 
