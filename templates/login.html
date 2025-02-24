@@ -97,15 +97,14 @@
                 {% endif %}
             </div>
             <div>
-                <img src={% if white_label_company.icon %}
+                <!--<img src={% if white_label_company.icon %}
                         "{{white_label_company.icon.url}}"
                         alt="{{white_label_company_name}}"
                         style=" opacity:.90; 200px; height: 140px;"
                     {% else %}
                         "{% static 'images/ui/auth-logo.png' %}" alt="Horilla"
-                        style=" opacity:.90; 200px; height: 140px;"
                     {% endif %}
-                />
+                />-->
                 {% if white_label_company %}
                 <p style=" font-size: large; color: gray; text-align: center;" class="mt-2">{{white_label_company}}</p>
                 {% endif %}
